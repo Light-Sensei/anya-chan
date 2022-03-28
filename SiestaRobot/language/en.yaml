@@ -11,7 +11,7 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 pm_start_text: |
   ────「 sʜɪᴋɪᴍᴏʀɪ ᴍɪᴄᴄʜᴏɴ 」────
   *ᴋᴏɴɴɪᴄʜɪᴡᴀ {}-ᴋᴜɴ ❤️*   
-  ♡ ɪ'ᴍ sʜɪᴋɪᴍᴏʀɪ ᴍɪᴄᴄʜᴏɴ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴘᴏᴡᴇʀғᴜʟ ʀᴏʙᴏᴛ [✨](https://telegra.ph/file/8bddb266c82258ff0a41b.mp4)
+  ♡ ɪ'ᴍ ᴀᴋᴀᴍᴇ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴘᴏᴡᴇʀғᴜʟ ʀᴏʙᴏᴛ [✨](https://telegra.ph/file/0bcca848aa3bc422ba9e4.jpg)
   ───────────────────────
   ♡  *sᴇʀᴠᴇʀ ᴜᴘᴛɪᴍᴇ:* `{}`             
   ♡  `{}` *ᴜsᴇʀs, ᴀᴄʀᴏss* `{}` *ᴄʜᴀᴛs.*  
@@ -19,12 +19,12 @@ pm_start_text: |
   ♡ ᴄʟɪᴄᴋ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ sᴇᴇ ᴍʏ ғᴇᴀᴛᴜʀᴇs.
    
 group_start_text: |
-  *💖 ʏᴏɪɪ!! ɪ'ᴍ sʜɪᴋɪᴍᴏʀɪ ᴍɪᴄᴄʜᴏɴ! ᴀᴍ ʜᴇʀᴇ ᴛᴏ ᴍᴀɴɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀʟʟ ᴏғ ʏᴏᴜʀ ʟᴏᴠᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ*[💕](https://telegra.ph/file/8bddb266c82258ff0a41b.mp4)
+  *💖 ʏᴏɪɪ!! ɪ'ᴍ ᴀᴋᴀᴍᴇ! ᴀᴍ ʜᴇʀᴇ ᴛᴏ ᴍᴀɴɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀʟʟ ᴏғ ʏᴏᴜʀ ʟᴏᴠᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ*[💕](https://telegra.ph/file/0bcca848aa3bc422ba9e4.jpg)
   
   *ᴀᴄᴛɪᴠᴇ sɪɴᴄᴇ :* `{}`
 
 pm_about_text: |
-  ♥ Hey Darling I'm *Shikimori Micchon*, a powerful group management bot built to help you manage your group easily. ♥ 
+  ♥ Hey Darling I'm *Akame*, a powerful group management bot built to help you manage your group easily. ♥ 
 
   ♡ I can restrict users.
   ♡ I can greet users with customizable welcome messages and even set a group's rules.
@@ -38,7 +38,7 @@ pm_about_text: |
 pm_about_admin_text: |
   *♥ Let's make your group bit effective now ♥*
 
-  Congragulations, Shikimori Micchon Robot now ready to manage your group.
+  Congragulations, Akame Robot now ready to manage your group.
 
   *Admin Tools*
   Basic Admin tools help you to protect and powerup your group.
@@ -53,13 +53,13 @@ pm_about_notes_text: |
   ♡ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
   ♡ You can also set buttons for notes and filters (refer help menu)
 pm_about_support_text: |
-  *♥  Shikimori Micchon Robot support chats ♥*
+  *♥  Akame Robot support chats ♥*
 
-  Join My Support Group/Channel for see or report a problem on Shikimori Support.
+  Join My Support Group/Channel for see or report a problem on Akame Support.
 pm_about_credit_text: |
-  *♥ Credis for Shikimori Micchon ♥*
+  *♥ Credis for Akame ♥*
 
-  Here Developers Making And Give Inspiration For Made The Shikimori Robot
+  Here Developers Making And Give Inspiration For Made The Akame Robot
 pm_help_text: |
   *♥ Click on the button bellow to get description about specifics command. ♥*
   
@@ -85,7 +85,7 @@ group_settings_text: "ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ᴛʜɪs ᴄʜᴀ
 group_settings_button: "sᴇᴛᴛɪɴɢs"
 
 # PM Button
-add_bot_to_group_button: "ᴀᴅᴅ ꜱʜɪᴋɪᴍᴏʀɪ ᴛᴏ ɢʀᴏᴜᴘ"
+add_bot_to_group_button: "ᴀᴅᴅ ᴀᴋᴀᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ"
 
 
 support_chat_link_button: "ꜱᴜᴘᴘᴏʀᴛ"
@@ -96,7 +96,7 @@ source_button: "sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ"
 
 help_button: "ʜᴇʟᴘ"
 back_button: "ʙᴀᴄᴋ"
-about_button: "ᴀʙᴏᴜᴛ sʜɪᴋɪᴍᴏʀɪ ᴍɪᴄᴄʜᴏɴ"
+about_button: "ᴀʙᴏᴜᴛ ᴀᴋᴀᴍᴇ"
 inline_button: "ɪɴʟɪɴᴇ"
 
 # MODULES
@@ -255,7 +255,7 @@ blacklist_help: |
 chatbot_help: |
     ──「 Chatbot AI 」──
 
-    Shikimori Micchon AI is the only ai system which can detect & reply upto 200 language's
+    Akame AI is the only ai system which can detect & reply upto 200 language's
 
     ♡ /chatbot [ON/OFF]: Enables and disables AI Chat mode.
     ♡ /chatbot EN : Enables English only chatbot.
