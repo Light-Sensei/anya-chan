@@ -72,16 +72,16 @@ def addsudo(update: Update, context: CallbackContext) -> str:
         data = json.load(infile)
 
     if user_id in DRAGONS:
-        message.reply_text("This Person is already My Sensei")
+        message.reply_text("This Person is already My Onii-Chan")
         return ""
 
     if user_id in DEMONS:
-        rt += "uff Now My Senpai become Sensei."
+        rt += "uff Now My Assaissin become Onii-Chan."
         data["supports"].remove(user_id)
         DEMONS.remove(user_id)
 
     if user_id in WOLVES:
-        rt += "Really! why you making My frnd to Sensei."
+        rt += "Really! why you making My frnd to Assaissin."
         data["whitelists"].remove(user_id)
         WOLVES.remove(user_id)
 
@@ -93,7 +93,7 @@ def addsudo(update: Update, context: CallbackContext) -> str:
 
     update.effective_message.reply_text(
         rt
-        + "\nSuccessfully Made {} My Sensei!".format(
+        + "\nSuccessfully Made {} My Onii-Chan!".format(
             user_member.first_name,
         ),
     )
@@ -133,16 +133,16 @@ def addsupport(
         data = json.load(infile)
 
     if user_id in DRAGONS:
-        rt += "Hehe , Sensei become Senpai"
+        rt += "Hehe , Spy become Assassin"
         data["sudos"].remove(user_id)
         DRAGONS.remove(user_id)
 
     if user_id in DEMONS:
-        message.reply_text("This person is already My senpai.")
+        message.reply_text("This person is already My Assassin.")
         return ""
 
     if user_id in WOLVES:
-        rt += "Really! why you making My frnd to Senpai"
+        rt += "Really! why you making My frnd to Assassin"
         data["whitelists"].remove(user_id)
         WOLVES.remove(user_id)
 
@@ -153,7 +153,7 @@ def addsupport(
         json.dump(data, outfile, indent=4)
 
     update.effective_message.reply_text(
-        rt + f"\n{user_member.first_name} was Made my Senpai!",
+        rt + f"\n{user_member.first_name} was Made my Assassin!",
     )
 
     log_message = (
@@ -342,7 +342,7 @@ def removesupport(update: Update, context: CallbackContext) -> str:
         data = json.load(infile)
 
     if user_id in DEMONS:
-        message.reply_text("ONichan tell me to stay away from strangers")
+        message.reply_text("Spy tell me to stay away from strangers")
         DEMONS.remove(user_id)
         data["supports"].remove(user_id)
 
@@ -382,7 +382,7 @@ def removewhitelist(update: Update, context: CallbackContext) -> str:
         data = json.load(infile)
 
     if user_id in WOLVES:
-        message.reply_text("ONichan tell me to stay away from strangers")
+        message.reply_text("Spy tell me to stay away from strangers")
         WOLVES.remove(user_id)
         data["whitelists"].remove(user_id)
 
