@@ -258,20 +258,20 @@ def info(update: Update, context: CallbackContext):
 
     text = (
         f"╔═━「<b> Appraisal results:</b> 」\n"
-        f"✪ ID: <code>{user.id}</code>\n"
-        f"✪ First Name: {html.escape(user.first_name)}"
+        f"✩ ID: <code>{user.id}</code>\n"
+        f"✩ First Name: {html.escape(user.first_name)}"
     )
 
     if user.last_name:
-        text += f"\n✪ Last Name: {html.escape(user.last_name)}"
+        text += f"\n✩ Last Name: {html.escape(user.last_name)}"
 
     if user.username:
-        text += f"\n✪ Username: @{html.escape(user.username)}"
+        text += f"\n✩ Username: @{html.escape(user.username)}"
 
-    text += f"\n✪ Userlink: {mention_html(user.id, 'link')}"
+    text += f"\n✩ Userlink: {mention_html(user.id, 'link')}"
 
     if chat.type != "private" and user_id != bot.id:
-        _stext = "\n✪ Presence: <code>{}</code>"
+        _stext = "\n✩ Presence: <code>{}</code>"
 
         afk_st = is_afk(user.id)
         if afk_st:
@@ -301,16 +301,16 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe Disaster level of this person is 'Darling'."
+        text += "\n\nThe Disaster level of this person is 'Ota-San'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Oniichan'."
+        text += "\n\nThis user is a 'Spy'."
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe Disaster level of this person is 'Sensei'."
+        text += "\n\nThe Disaster level of this person is 'Onii_Chan'."
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThe Disaster level of this person is 'Senpai'."
+        text += "\n\nThis person is an 'Assassin'."
         disaster_level_present = True
     elif user.id in TIGERS:
         text += "\n\nThe Disaster level of this person is 'Bestfriend'."
@@ -356,9 +356,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/ShikimoriXupdates/11"),
+                                "Health", url="https://t.me/anyaXupdates/8"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/ShikimoriXupdates/9")
+                                "Disaster", url="https://t.me/anyaXupdates/6")
                         ],
                     ]
                 ),
@@ -374,9 +374,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/ShikimoriXupdates/11"),
+                                "Health", url="https://t.me/anyaXupdates/8"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/ShikimoriXupdates/9")
+                                "Disaster", url="https://t.me/anyaXupdates/6")
                         ],
                     ]
                 ),
@@ -468,10 +468,10 @@ def stats(update, context):
     try:
         update.effective_message.reply_text(
             status
-            + "\n*Shikimori statistics*:\n"
+            + "\n*Anya statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/shikimoriXupdates)\n\n"
-            + "╘══「 by [Light Yagami](https://t.me/Itz_Light_Yagami) 」\n",
+            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/anyaXupdates)\n\n"
+            + "╘══「 by [Oreki](https://t.me/rwkira) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )
@@ -480,12 +480,12 @@ def stats(update, context):
             (
                 (
                     (
-                        "\n*Shikimori statistics*:\n"
+                        "\n*Anya statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/ShikimoriXupdates)\n\n"
+                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/anyaXupdates)\n\n"
                 )
-                + "╘══「 by [Light Yagami (夜神月)](https://github.com/Light-Sensei) 」\n"
+                + "╘══「 by [Oreki](https://github.com/Light-Sensei) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
