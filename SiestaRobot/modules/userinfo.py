@@ -301,25 +301,25 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe Disaster level of this person is 'Ota-San'."
+        text += "\n\nThe Disaster level of this person is 'President'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is a 'Spy'."
+        text += "\n\nThis user is a 'Vice President'."
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe Disaster level of this person is 'Onii_Chan'."
+        text += "\n\nThe Disaster level of this person is 'Minister'."
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThis person is an 'Assassin'."
+        text += "\n\nThis person is an 'Cheif'."
         disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\nThe Disaster level of this person is 'Bestfriend'."
+        text += "\n\nThe Disaster level of this person is 'Mayor'."
         disaster_level_present = True
     elif user.id in WOLVES:
-        text += "\n\nThe Disaster level of this person is 'Friend'."
+        text += "\n\nThe Disaster level of this person is 'Pappu'."
         disaster_level_present = True
-    elif user.id == 1829047705:
-         text += "\n\nOwner Of A Bot. Queen Of @excrybaby. Bot Name Inspired From 'JoJo'."
+    elif user.id == 1492076351:
+         text += "\n\nOwner Of A Bot. Queen Of @Itz_Light_Yagami. Bot Name Inspired From 'Spy X Family'."
          disaster_level_present = True
 
     try:
@@ -356,9 +356,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/anyaXupdates/8"),
+                                "Health", url="https://t.me/yorXupdates/8"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/anyaXupdates/6")
+                                "Disaster", url="https://t.me/yorXupdates/6")
                         ],
                     ]
                 ),
@@ -470,8 +470,8 @@ def stats(update, context):
             status
             + "\n*Anya statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/anyaXupdates)\n\n"
-            + "╘══「 by [Oreki](https://t.me/rwkira) 」\n",
+            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/yorXupdates)\n\n"
+            + "╘══「 by [Phoenix](https://t.me/otakuAuraX) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )
@@ -483,9 +483,9 @@ def stats(update, context):
                         "\n*Anya statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/anyaXupdates)\n\n"
+                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/yorXupdates)\n\n"
                 )
-                + "╘══「 by [Oreki](https://github.com/Light-Sensei) 」\n"
+                + "╘══「 by [Phoenix](https://github.com/Light-Sensei) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
