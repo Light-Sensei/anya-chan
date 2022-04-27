@@ -9,10 +9,10 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 
 # PM Text
 pm_start_text: |
-  ────「 Anya 
+  ────「 ʏᴏʀ 
 
   *ᴋᴏɴɴɪᴄʜɪᴡᴀ {}-ᴋᴜɴ ❤️*   
-  ♡ ɪ'ᴍ ᴀɴʏᴀ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴘᴏᴡᴇʀғᴜʟ ʀᴏʙᴏᴛ [✨](https://telegra.ph/file/b093284ec8fce4dd9bea7.jpg)
+  ♡ ɪ'ᴍ ʏᴏʀ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴘᴏᴡᴇʀғᴜʟ ʀᴏʙᴏᴛ [✨](https://telegra.ph/file/daae9edfff5f40077f11d.jpg)
   ───────────────────────
   ♡  *sᴇʀᴠᴇʀ ᴜᴘᴛɪᴍᴇ:* `{}`             
   ♡  `{}` *ᴜsᴇʀs, ᴀᴄʀᴏss* `{}` *ᴄʜᴀᴛs.*  
@@ -20,12 +20,12 @@ pm_start_text: |
   ♡ ᴄʟɪᴄᴋ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ sᴇᴇ ᴍʏ ғᴇᴀᴛᴜʀᴇs.
    
 group_start_text: |
-  * ɪ'ᴍ ᴀɴʏᴀ! ᴀᴍ ʜᴇʀᴇ ᴛᴏ ᴍᴀɴɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀʟʟ ᴏғ ʏᴏᴜʀ ʟᴏᴠᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ*[💕](https://telegra.ph/file/b093284ec8fce4dd9bea7.jpg)
+  * ɪ'ᴍ ʏᴏʀ! ᴀᴍ ʜᴇʀᴇ ᴛᴏ ᴍᴀɴɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀʟʟ ᴏғ ʏᴏᴜʀ ʟᴏᴠᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ*[💕](https://telegra.ph/file/daae9edfff5f40077f11d.jpg)
   
   *ᴀᴄᴛɪᴠᴇ sɪɴᴄᴇ :* `{}`
 
 pm_about_text: |
-  ♥ Hey Darling I'm *Anya*, a powerful group management bot built to help you manage your group easily. ♥ 
+  ♥ Hey Darling I'm *Yor*, a powerful group management bot built to help you manage your group easily. ♥ 
 
   ♡ I can restrict users.
   ♡ I can greet users with customizable welcome messages and even set a group's rules.
@@ -54,11 +54,11 @@ pm_about_notes_text: |
   ♡ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
   ♡ You can also set buttons for notes and filters (refer help menu)
 pm_about_support_text: |
-  *♥  Akame Robot support chats ♥*
+  *♥  Yor Robot support chats ♥*
 
   Join My Support Group/Channel for see or report a problem on Akame Support.
 pm_about_credit_text: |
-  *♥ Credis for Akame ♥*
+  *♥ Credis for Yor ♥*
 
   Here Developers Making And Give Inspiration For Made The Akame Robot
 pm_help_text: |
@@ -86,7 +86,7 @@ group_settings_text: "ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ᴛʜɪs ᴄʜᴀ
 group_settings_button: "sᴇᴛᴛɪɴɢs"
 
 # PM Button
-add_bot_to_group_button: "ᴀᴅᴅ ANYA ᴛᴏ ɢʀᴏᴜᴘ"
+add_bot_to_group_button: "ᴀᴅᴅ ʏᴏʀ ᴛᴏ ɢʀᴏᴜᴘ"
 
 
 support_chat_link_button: "ꜱᴜᴘᴘᴏʀᴛ"
@@ -97,7 +97,7 @@ source_button: "sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ"
 
 help_button: "ʜᴇʟᴘ"
 back_button: "ʙᴀᴄᴋ"
-about_button: "ᴀʙᴏᴜᴛ ᴀᴋᴀᴍᴇ"
+about_button: "ᴀʙᴏᴜᴛ ʏᴏʀ
 inline_button: "ɪɴʟɪɴᴇ"
 
 # MODULES
