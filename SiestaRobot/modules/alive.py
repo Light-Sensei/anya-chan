@@ -15,11 +15,11 @@ PHOTO = "https://telegra.ph/file/daae9edfff5f40077f11d.jpg"
 async def awake(event):
   TEXT = f"**Yo!! [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Akame.** \n\n"
   TEXT += "♡ **I'm Working Properly Baka!!** \n\n"
-  TEXT += f"♡ **My Loid-San : [Gautam](https://t.me/follow_me_kids)** \n\n"
+  TEXT += f"♡ **My Loid-San : [Cyanx](https://t.me/Thegojosensei)** \n\n"
   TEXT += f"♡ **Library Version :** `{telever}` \n\n"
   TEXT += f"♡ **Telethon Version :** `{tlhver}` \n\n"
   TEXT += f"♡ **Pyrogram Version :** `{pyrover}` \n\n"
   TEXT += "**Thanks For Adding Me Here ♡**"
-  BUTTON = [[Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/ShikimoriXupdates"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/JinWooXsupport"), 
-                       Button.url("ᴍʏ ᴅᴀʀʟɪɴɢ", "https://t.me/Itz_Light_Yagami")]]
+  BUTTON = [[Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/anyaxupdate"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/anime_talks_universe"), 
+                       Button.url("ᴍʏ ᴅᴀʀʟɪɴɢ", "https://t.me/RWKIRA")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
