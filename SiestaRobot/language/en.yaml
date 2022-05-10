@@ -9,10 +9,10 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 
 # PM Text
 pm_start_text: |
-  ────「 ʏᴏʀ 
+  ────「 ᴀɴʏᴀ 
 
   *ᴋᴏɴɴɪᴄʜɪᴡᴀ {}-ᴋᴜɴ ❤️*   
-  ♡ ɪ'ᴍ ʏᴏʀ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴘᴏᴡᴇʀғᴜʟ ʀᴏʙᴏᴛ [✨](https://telegra.ph/file/daae9edfff5f40077f11d.jpg)
+  ♡ ɪ'ᴍ ᴀɴʏᴀ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴘᴏᴡᴇʀғᴜʟ ʀᴏʙᴏᴛ [✨](https://telegra.ph/file/daae9edfff5f40077f11d.jpg)
   ───────────────────────
   ♡  *sᴇʀᴠᴇʀ ᴜᴘᴛɪᴍᴇ:* `{}`             
   ♡  `{}` *ᴜsᴇʀs, ᴀᴄʀᴏss* `{}` *ᴄʜᴀᴛs.*  
@@ -20,7 +20,7 @@ pm_start_text: |
   ♡ ᴄʟɪᴄᴋ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ sᴇᴇ ᴍʏ ғᴇᴀᴛᴜʀᴇs.
    
 group_start_text: |
-  * ɪ'ᴍ ʏᴏʀ! ᴀᴍ ʜᴇʀᴇ ᴛᴏ ᴍᴀɴɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀʟʟ ᴏғ ʏᴏᴜʀ ʟᴏᴠᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ*[💕](https://telegra.ph/file/daae9edfff5f40077f11d.jpg)
+  * ɪ'ᴍ ᴀɴʏᴀ! ᴀᴍ ʜᴇʀᴇ ᴛᴏ ᴍᴀɴɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀʟʟ ᴏғ ʏᴏᴜʀ ʟᴏᴠᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ*[💕](https://telegra.ph/file/daae9edfff5f40077f11d.jpg)
   
   *ᴀᴄᴛɪᴠᴇ sɪɴᴄᴇ :* `{}`
 
@@ -86,7 +86,7 @@ group_settings_text: "ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ᴛʜɪs ᴄʜᴀ
 group_settings_button: "sᴇᴛᴛɪɴɢs"
 
 # PM Button
-add_bot_to_group_button: "ᴀᴅᴅ ʏᴏʀ ᴛᴏ ɢʀᴏᴜᴘ"
+add_bot_to_group_button: "ᴀᴅᴅ ᴀɴʏᴀ ᴛᴏ ɢʀᴏᴜᴘ"
 
 
 support_chat_link_button: "ꜱᴜᴘᴘᴏʀᴛ"
@@ -97,7 +97,7 @@ source_button: "sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ"
 
 help_button: "ʜᴇʟᴘ"
 back_button: "ʙᴀᴄᴋ"
-about_button: "ᴀʙᴏᴜᴛ ʏᴏʀ
+about_button: "ᴀʙᴏᴜᴛ ᴀɴʏᴀ"
 inline_button: "ɪɴʟɪɴᴇ"
 
 # MODULES
