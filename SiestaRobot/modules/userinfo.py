@@ -356,9 +356,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/yorXupdates/8"),
+                                "Health", url="https://t.me/anyaXupdate/8"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/yorXupdates/6")
+                                "Disaster", url="https://t.me/anyaxupdate/6")
                         ],
                     ]
                 ),
@@ -374,9 +374,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/anyaXupdates/8"),
+                                "Health", url="https://t.me/anyaXupdate/8"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/anyaXupdates/6")
+                                "Disaster", url="https://t.me/anyaXupdate/6")
                         ],
                     ]
                 ),
